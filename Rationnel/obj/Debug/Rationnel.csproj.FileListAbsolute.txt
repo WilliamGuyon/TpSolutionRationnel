@@ -1,0 +1,6 @@
+C:\Users\willi\OneDrive\Documents\COURS\C#\TpsC#\Tp1\SolutionRationnel\Rationnel\obj\Debug\Rationnel.csproj.CoreCompileInputs.cache
+C:\Users\willi\OneDrive\Documents\COURS\C#\TpsC#\Tp1\SolutionRationnel\Rationnel\bin\Debug\Rationnel.dll
+C:\Users\willi\OneDrive\Documents\COURS\C#\TpsC#\Tp1\SolutionRationnel\Rationnel\bin\Debug\Rationnel.pdb
+C:\Users\willi\OneDrive\Documents\COURS\C#\TpsC#\Tp1\SolutionRationnel\Rationnel\obj\Debug\Rationnel.dll
+C:\Users\willi\OneDrive\Documents\COURS\C#\TpsC#\Tp1\SolutionRationnel\Rationnel\obj\Debug\Rationnel.pdb
+C:\Users\willi\OneDrive\Documents\COURS\C#\TpsC#\Tp1\SolutionRationnel\Rationnel\obj\Debug\Rationnel.csproj.AssemblyReference.cache

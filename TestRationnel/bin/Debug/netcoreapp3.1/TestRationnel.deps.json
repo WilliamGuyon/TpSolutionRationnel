@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TestRationnel/1.0.0": {
+        "dependencies": {
+          "Rationnel": "1.0.0"
+        },
+        "runtime": {
+          "TestRationnel.dll": {}
+        }
+      },
+      "Rationnel/1.0.0": {
+        "runtime": {
+          "Rationnel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestRationnel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rationnel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
