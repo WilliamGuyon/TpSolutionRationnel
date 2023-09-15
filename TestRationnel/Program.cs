@@ -57,6 +57,28 @@ namespace TestRationnel
                 Console.WriteLine("");
                 r1.processRationnel(egalite, tableauRationnels);
 
+                Rationnel.Rationnel[] rationnels = new Rationnel.Rationnel[]
+                {
+                    new Rationnel.Rationnel(12, 5),
+                    new Rationnel.Rationnel(1, 2),
+                    new Rationnel.Rationnel(2, 3),
+                    new Rationnel.Rationnel(1, 4)
+                };
+
+                Console.WriteLine("Tableau de Rationnels avant le tri :");
+                foreach (var rationnel in rationnels)
+                {
+                    Console.WriteLine(rationnel);
+                }
+
+                Array.Sort(rationnels);
+
+                Console.WriteLine("\nTableau de Rationnels après le tri :");
+                foreach (var rationnel in rationnels)
+                {
+                    Console.WriteLine(rationnel);
+                }
+
             }
             catch(ArgumentException)
             {

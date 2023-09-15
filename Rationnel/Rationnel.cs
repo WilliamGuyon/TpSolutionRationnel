@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rationnel
 {
-    public readonly struct Rationnel
+    public readonly struct Rationnel : IComparable<Rationnel>
     {
         private readonly int numerateur;
         private readonly int denominateur;
@@ -128,6 +128,14 @@ namespace Rationnel
                     process(r);
                 }
             }
+        }
+
+        public int CompareTo(Rationnel other)
+        {
+            double valeurThis = (double)Numerateur / Denominateur;
+            double valeurOther = (double)other.Numerateur / other.Denominateur;
+
+            return valeurThis.CompareTo(valeurOther);
         }
     }
 }
